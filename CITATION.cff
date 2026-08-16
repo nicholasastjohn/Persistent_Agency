@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Persistent Agency: A Three-Loop Cognitive Architecture for Autonomous General Intelligence"
+message: "If you use this research architecture, please cite the paper and the archived software release."
+type: software
+authors:
+  - family-names: "St. John"
+    given-names: "Nicholas"
+version: 0.1.0
+date-released: 2026-08-16
