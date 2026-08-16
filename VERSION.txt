@@ -1,0 +1,4 @@
+Persistent Agency release package v1.2
+Date: 2026-08-16
+Canonical repository: https://github.com/nicholasastjohn/Persistent_Agency
+Paper: Persistent Agency: A Three-Loop Cognitive Architecture for Artificial General Intelligence

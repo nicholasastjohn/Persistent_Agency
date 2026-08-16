@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+<defs>
+  <marker id="arrowGreen" markerWidth="7" markerHeight="7" refX="6.2" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0.7,0.7 L6.2,3.5 L0.7,6.3" fill="none" stroke="#208A55" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <marker id="arrowRed" markerWidth="7" markerHeight="7" refX="6.2" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0.7,0.7 L6.2,3.5 L0.7,6.3" fill="none" stroke="#B94444" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <marker id="arrowBlue" markerWidth="7" markerHeight="7" refX="6.2" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0.7,0.7 L6.2,3.5 L0.7,6.3" fill="none" stroke="#3569B8" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <marker id="arrowGray" markerWidth="7" markerHeight="7" refX="6.2" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0.7,0.7 L6.2,3.5 L0.7,6.3" fill="none" stroke="#4A5568" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/></filter>
+  <style>
+    .title{font-family:Arial,Helvetica,sans-serif;font-size:34px;font-weight:700;fill:#172033}
+    .subtitle{font-family:Arial,Helvetica,sans-serif;font-size:16px;fill:#4A5568}
+    .paneltitle{font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:700;fill:#24324A}
+    .boxtitle{font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;fill:#172033}
+    .boxtext{font-family:Arial,Helvetica,sans-serif;font-size:12.5px;fill:#39465A}
+    .small{font-family:Arial,Helvetica,sans-serif;font-size:11.5px;fill:#536176}
+    .looplabel{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:700}
+  </style>
+</defs>
+<rect x="0" y="0" width="1800" height="1120" fill="#FFFFFF"/>
+<text x="900" y="52" text-anchor="middle" class="title">Persistent Agency: Three-Loop Cognitive Architecture</text>
+<text x="900" y="80" text-anchor="middle" class="subtitle">Heterogeneous specialization | continuous endogenous cognition | plastic pathways across multiple timescales</text>
+
+<!-- Controller -->
+<rect x="570" y="105" rx="14" ry="14" width="660" height="95" fill="#FFF6DE" stroke="#B77A13" stroke-width="2.2" filter="url(#shadow)"/>
+<text x="900" y="137" text-anchor="middle" class="boxtitle">Controller</text>
+<text x="900" y="160" text-anchor="middle" class="boxtext">Low-complexity motivational pressures and resource priorities</text>
+<text x="900" y="181" text-anchor="middle" class="small">Operational integrity | goal pressure | attention | safety constraints | bounded human-responsiveness signal</text>
+
+<!-- Main panels -->
+<rect x="55" y="235" rx="18" width="520" height="660" fill="#F7FBFD" stroke="#8EA9B8" stroke-width="2"/>
+<text x="315" y="268" text-anchor="middle" class="paneltitle">Memory, Association, and Automaticity</text>
+
+<rect x="640" y="235" rx="18" width="520" height="660" fill="#FCF9F8" stroke="#A69A95" stroke-width="2"/>
+<text x="900" y="268" text-anchor="middle" class="paneltitle">Continuous Cognitive Core</text>
+
+<rect x="1225" y="235" rx="18" width="520" height="660" fill="#FAFCF5" stroke="#A6B27B" stroke-width="2"/>
+<text x="1485" y="268" text-anchor="middle" class="paneltitle">Specialist Model Fabric / Agent Harness</text>
+
+<!-- Left boxes -->
+<rect x="95" y="300" rx="10" width="440" height="76" fill="#DFF3FA" stroke="#4D8DA3" stroke-width="1.8"/>
+<text x="315" y="327" text-anchor="middle" class="boxtitle">Associator</text>
+<text x="315" y="349" text-anchor="middle" class="boxtext">Links observations, goals, memories, causality, novelty, and prior usefulness</text>
+
+<rect x="95" y="405" rx="9" width="132" height="73" fill="#EAF7FA" stroke="#72A6B8"/>
+<text x="161" y="431" text-anchor="middle" class="boxtitle">Short-Term</text><text x="161" y="450" text-anchor="middle" class="boxtitle">Memory</text><text x="161" y="468" text-anchor="middle" class="small">Recent working state</text>
+<rect x="249" y="405" rx="9" width="132" height="73" fill="#EAF7FA" stroke="#72A6B8"/>
+<text x="315" y="431" text-anchor="middle" class="boxtitle">Persistent</text><text x="315" y="450" text-anchor="middle" class="boxtitle">Memory</text><text x="315" y="468" text-anchor="middle" class="small">Durable close state</text>
+<rect x="403" y="405" rx="9" width="132" height="73" fill="#EAF7FA" stroke="#72A6B8"/>
+<text x="469" y="431" text-anchor="middle" class="boxtitle">Long-Term</text><text x="469" y="450" text-anchor="middle" class="boxtitle">Memory</text><text x="469" y="468" text-anchor="middle" class="small">Consolidated knowledge</text>
+
+<rect x="95" y="510" rx="9" width="205" height="78" fill="#F0EAF8" stroke="#8D6CB0"/>
+<text x="197" y="539" text-anchor="middle" class="boxtitle">Fragmented Memory</text><text x="197" y="561" text-anchor="middle" class="boxtext">Lossy, compressed, costly retrieval</text>
+<rect x="330" y="510" rx="9" width="205" height="78" fill="#E7F6E9" stroke="#5D9A69"/>
+<text x="432" y="539" text-anchor="middle" class="boxtitle">Procedural Memory</text><text x="432" y="561" text-anchor="middle" class="boxtext">Compiled skills and automaticity</text>
+
+<rect x="95" y="620" rx="9" width="440" height="72" fill="#EDF1F5" stroke="#7C8A99"/>
+<text x="315" y="648" text-anchor="middle" class="boxtitle">Representation Adapter</text>
+<text x="315" y="670" text-anchor="middle" class="boxtext">Vectors | graphs | symbolic relations | natural language | task-specific forms</text>
+
+<rect x="95" y="735" rx="10" width="440" height="105" fill="#EEF4FF" stroke="#668BC7" stroke-width="1.8"/>
+<text x="315" y="765" text-anchor="middle" class="boxtitle">Consolidation Engine</text>
+<text x="315" y="788" text-anchor="middle" class="boxtext">Replay | compress | prune | merge | contradiction checks</text>
+<text x="315" y="809" text-anchor="middle" class="boxtext">skill compilation | association updates | pathway reorganization</text>
+
+<!-- Center boxes -->
+<rect x="700" y="305" rx="12" width="400" height="145" fill="#FCE8E5" stroke="#BA665B" stroke-width="2" filter="url(#shadow)"/>
+<text x="900" y="337" text-anchor="middle" class="boxtitle">Thinker</text>
+<text x="900" y="361" text-anchor="middle" class="boxtext">Recurrent cognitive-state machine / functional workspace</text>
+<text x="900" y="384" text-anchor="middle" class="boxtext">Foreground thought | goals | uncertainty | plans | attention | action candidates</text>
+<text x="900" y="407" text-anchor="middle" class="boxtext">Previous cognitive state can generate the next state without external input</text>
+<text x="900" y="431" text-anchor="middle" class="small">Not identical to a frontier language model</text>
+
+<rect x="700" y="510" rx="12" width="400" height="126" fill="#FFF1DF" stroke="#C68A3F" stroke-width="2"/>
+<text x="900" y="541" text-anchor="middle" class="boxtitle">Prompter / Router</text>
+<text x="900" y="565" text-anchor="middle" class="boxtext">Translates cognitive needs into specialist work</text>
+<text x="900" y="587" text-anchor="middle" class="boxtext">Retrieves context | chooses mechanism | constructs requests</text>
+<text x="900" y="609" text-anchor="middle" class="small">Returns structured outputs to the Thinker</text>
+
+<rect x="700" y="708" rx="12" width="400" height="133" fill="#E9F7F5" stroke="#579B91" stroke-width="2"/>
+<text x="900" y="740" text-anchor="middle" class="boxtitle">Environment Interface</text>
+<rect x="730" y="767" rx="8" width="150" height="50" fill="#DDF4F4" stroke="#62A0A0"/>
+<text x="805" y="789" text-anchor="middle" class="boxtitle">Collectors</text><text x="805" y="807" text-anchor="middle" class="small">Continuous sensing</text>
+<rect x="920" y="767" rx="8" width="150" height="50" fill="#F9E3E3" stroke="#BC6F6F"/>
+<text x="995" y="789" text-anchor="middle" class="boxtitle">Mechinator</text><text x="995" y="807" text-anchor="middle" class="small">Actions and actuation</text>
+
+<!-- Right boxes -->
+<rect x="1275" y="305" rx="10" width="420" height="88" fill="#EAF7C8" stroke="#83A74E"/>
+<text x="1485" y="333" text-anchor="middle" class="boxtitle">Frontier Reasoning Models</text>
+<text x="1485" y="356" text-anchor="middle" class="boxtext">General reasoning, language, synthesis, planning</text>
+<text x="1485" y="376" text-anchor="middle" class="small">Replaceable; not the architecture itself</text>
+
+<rect x="1275" y="425" rx="10" width="420" height="78" fill="#F0F8D7" stroke="#9AAE60"/>
+<text x="1485" y="454" text-anchor="middle" class="boxtitle">Vision and Multimodal Models</text>
+<text x="1485" y="477" text-anchor="middle" class="boxtext">Perception, interpretation, cross-modal inference</text>
+
+<rect x="1275" y="535" rx="10" width="420" height="78" fill="#F0F8D7" stroke="#9AAE60"/>
+<text x="1485" y="564" text-anchor="middle" class="boxtitle">Symbolic and Deterministic Tools</text>
+<text x="1485" y="587" text-anchor="middle" class="boxtext">Math, search, databases, compilers, controllers</text>
+
+<rect x="1275" y="645" rx="10" width="420" height="78" fill="#F0F8D7" stroke="#9AAE60"/>
+<text x="1485" y="674" text-anchor="middle" class="boxtitle">Small Learned Policies / Classifiers</text>
+<text x="1485" y="697" text-anchor="middle" class="boxtext">Low-cost specialized inference and routing</text>
+
+<rect x="1275" y="755" rx="10" width="420" height="78" fill="#F0F8D7" stroke="#9AAE60"/>
+<text x="1485" y="784" text-anchor="middle" class="boxtitle">Tools, Code, and External Services</text>
+<text x="1485" y="807" text-anchor="middle" class="boxtext">Files, networks, simulations, application interfaces</text>
+
+<!-- External environment -->
+<rect x="320" y="960" rx="14" width="1160" height="88" fill="#EEF1F5" stroke="#6F7B89" stroke-width="2"/>
+<text x="900" y="991" text-anchor="middle" class="boxtitle">External Environment</text>
+<text x="900" y="1017" text-anchor="middle" class="boxtext">Humans and human feedback | physical world | digital systems | internet | sensors | tools | robots | events</text>
+
+<!-- Information/control connections: thin, orthogonal, and routed only through whitespace -->
+<!-- Controller influence enters the Thinker from the upper-left, avoiding the panel title. -->
+<path d="M820 200 L600 200 L600 285 L760 285 L760 305" fill="none" stroke="#4A5568" stroke-width="1.55" marker-end="url(#arrowGray)"/>
+
+<!-- Associative context to Thinker; Thinker state to representation; representation back to routing. -->
+<path d="M535 338 L610 338 L610 320 L700 320" fill="none" stroke="#4A5568" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+<path d="M700 430 L620 430 L620 656 L535 656" fill="none" stroke="#4A5568" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+<path d="M535 656 L610 656 L610 620 L700 620" fill="none" stroke="#4A5568" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+<!-- Specialist dispatch uses one bus rather than crossing the model boxes with many long lines. -->
+<path d="M1100 548 L1180 548" fill="none" stroke="#4A5568" stroke-width="1.55"/>
+<path d="M1180 349 L1180 794" fill="none" stroke="#4A5568" stroke-width="1.35"/>
+<path d="M1180 349 L1275 349" fill="none" stroke="#4A5568" stroke-width="1.35" marker-end="url(#arrowGray)"/>
+<path d="M1180 464 L1275 464" fill="none" stroke="#4A5568" stroke-width="1.35" marker-end="url(#arrowGray)"/>
+<path d="M1180 574 L1275 574" fill="none" stroke="#4A5568" stroke-width="1.35" marker-end="url(#arrowGray)"/>
+<path d="M1180 684 L1275 684" fill="none" stroke="#4A5568" stroke-width="1.35" marker-end="url(#arrowGray)"/>
+<path d="M1180 794 L1275 794" fill="none" stroke="#4A5568" stroke-width="1.35" marker-end="url(#arrowGray)"/>
+<!-- Structured specialist results return on a separate corridor. -->
+<path d="M1225 395 L1205 395 L1205 610 L1100 610" fill="none" stroke="#4A5568" stroke-width="1.55" marker-end="url(#arrowGray)"/>
+<text x="1168" y="535" text-anchor="end" class="small" fill="#4A5568">dispatch</text>
+<text x="1195" y="630" text-anchor="end" class="small" fill="#4A5568">results</text>
+
+<!-- LOOP II: deliberative recurrence. Parallel Thinker/Prompter arrows are kept narrow and separate. -->
+<path d="M875 450 L875 510" fill="none" stroke="#B94444" stroke-width="2.15" marker-end="url(#arrowRed)"/>
+<path d="M925 510 L925 450" fill="none" stroke="#B94444" stroke-width="2.15" marker-end="url(#arrowRed)"/>
+<!-- Perception interrupts deliberation through the left gutter. -->
+<path d="M805 767 L805 682 L680 682 L680 585 L700 585" fill="none" stroke="#B94444" stroke-width="2.15" marker-end="url(#arrowRed)"/>
+<!-- Deliberate action exits through the right gutter. -->
+<path d="M1100 585 L1150 585 L1150 792 L1070 792" fill="none" stroke="#B94444" stroke-width="2.15" marker-end="url(#arrowRed)"/>
+
+<!-- LOOP I: reactive bypass. Dedicated green corridors never enter the Thinker/Prompter boxes. -->
+<path d="M690 960 L690 860 L805 860 L805 817" fill="none" stroke="#208A55" stroke-width="2.25" marker-end="url(#arrowGreen)"/>
+<path d="M730 792 L610 792 L610 338 L535 338" fill="none" stroke="#208A55" stroke-width="2.25" marker-end="url(#arrowGreen)"/>
+<path d="M535 549 L625 549 L625 905 L1030 905 L1030 817" fill="none" stroke="#208A55" stroke-width="2.25" marker-end="url(#arrowGreen)"/>
+<path d="M995 817 L995 930 L1110 930 L1110 960" fill="none" stroke="#208A55" stroke-width="2.25" marker-end="url(#arrowGreen)"/>
+
+<!-- LOOP III: consolidation. Two separate blue corridors connect Thinker and Consolidation Engine without crossing text. -->
+<path d="M740 450 L740 470 L625 470 L625 760 L535 760" fill="none" stroke="#3569B8" stroke-width="1.95" stroke-dasharray="8 7" marker-end="url(#arrowBlue)"/>
+<path d="M535 810 L585 810 L585 285 L740 285 L740 305" fill="none" stroke="#3569B8" stroke-width="1.95" stroke-dasharray="8 7" marker-end="url(#arrowBlue)"/>
+<!-- Consolidation writes to colder and procedural memory through the panel edges. -->
+<path d="M95 770 L65 770 L65 549 L95 549" fill="none" stroke="#3569B8" stroke-width="1.85" stroke-dasharray="8 7" marker-end="url(#arrowBlue)"/>
+<path d="M535 790 L555 790 L555 549 L535 549" fill="none" stroke="#3569B8" stroke-width="1.85" stroke-dasharray="8 7" marker-end="url(#arrowBlue)"/>
+
+<!-- Associator fans into the three high-availability memory tiers through a short local bus. -->
+<path d="M315 376 L315 392" fill="none" stroke="#4A5568" stroke-width="1.3"/>
+<path d="M161 392 L469 392" fill="none" stroke="#4A5568" stroke-width="1.3"/>
+<path d="M161 392 L161 405" fill="none" stroke="#4A5568" stroke-width="1.3" marker-end="url(#arrowGray)"/>
+<path d="M315 392 L315 405" fill="none" stroke="#4A5568" stroke-width="1.3" marker-end="url(#arrowGray)"/>
+<path d="M469 392 L469 405" fill="none" stroke="#4A5568" stroke-width="1.3" marker-end="url(#arrowGray)"/>
+
+<!-- Legend -->
+<rect x="70" y="1070" width="1660" height="34" fill="#FFFFFF"/>
+<line x1="90" y1="1087" x2="145" y2="1087" stroke="#208A55" stroke-width="2.25" marker-end="url(#arrowGreen)"/><text x="158" y="1092" class="small">Reactive</text>
+<line x1="270" y1="1087" x2="325" y2="1087" stroke="#B94444" stroke-width="2.15" marker-end="url(#arrowRed)"/><text x="338" y="1092" class="small">Deliberative</text>
+<line x1="485" y1="1087" x2="540" y2="1087" stroke="#3569B8" stroke-width="1.95" stroke-dasharray="8 7" marker-end="url(#arrowBlue)"/><text x="553" y="1092" class="small">Consolidation</text>
+<line x1="710" y1="1087" x2="765" y2="1087" stroke="#4A5568" stroke-width="1.55" marker-end="url(#arrowGray)"/><text x="778" y="1092" class="small">Information / control</text>
+<text x="1710" y="1092" text-anchor="end" class="small">Human questions enter through Collectors; human satisfaction is feedback, not direct resource reward.</text>
+</svg>
